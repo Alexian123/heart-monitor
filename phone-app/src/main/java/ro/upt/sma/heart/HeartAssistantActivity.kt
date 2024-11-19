@@ -25,7 +25,7 @@ class HeartAssistantActivity : AppCompatActivity(), HeartAssistantView {
         findViewById<RecyclerView>(R.id.rv_heart_assistant_measurement_list).layoutManager = LinearLayoutManager(this)
 
         // FIXME: Add the specific WEAR device code (as listed under 'Monitoring code' label)
-        val code = ""
+        val code = "e325"
         this.presenter = Injection.provideHeartAssistantPresenter(code)
     }
 

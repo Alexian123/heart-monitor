@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "535728238105",
+    "firebase_url": "https://lab-sma-2024-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "lab-sma-2024",
+    "storage_bucket": "lab-sma-2024.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:535728238105:android:338f0de435d94159428488",
+        "android_client_info": {
+          "package_name": "ro.upt.ac.chiuitter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPmbMsDiBoZ2DvhGtlhg7vNdnHPWOS93Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:535728238105:android:a2b8c1877c02a65b428488",
+        "android_client_info": {
+          "package_name": "ro.upt.sma.heart"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPmbMsDiBoZ2DvhGtlhg7vNdnHPWOS93Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
