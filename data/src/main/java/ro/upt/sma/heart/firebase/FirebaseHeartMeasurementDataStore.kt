@@ -16,7 +16,7 @@ class FirebaseHeartMeasurementDataStore(userId: String) : HeartMeasurementReposi
 
     override fun post(heartMeasurement: HeartMeasurement) {
         // TODO 4: Post the new value to Firebase.
-        reference.push().setValue(heartMeasurement)
+        reference.child(heartMeasurement.timestamp.toString()).setValue(heartMeasurement.value)
     }
 
     override fun observe(listener: HeartMeasurementRepository.HeartChangedListener) {
